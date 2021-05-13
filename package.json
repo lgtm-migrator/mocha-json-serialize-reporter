@@ -24,6 +24,7 @@
     "lib"
   ],
   "scripts": {
+    "build": "rollup -c",
     "coverage-report-lcov": "nyc report --reporter=lcov",
     "lint": "eslint .",
     "release": "standard-version --sign",
